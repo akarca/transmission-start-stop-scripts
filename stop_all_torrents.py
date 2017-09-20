@@ -4,5 +4,5 @@ torrents = tc.get_torrents()
 
 print "Stopping %s torrents" % len(torrents)
 
-for torrent in torrens:
+for torrent in torrents:
     tc.stop(torrent.id)
